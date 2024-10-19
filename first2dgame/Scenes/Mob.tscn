@@ -48,8 +48,9 @@ animations = [{
 radius = 36.0
 height = 98.0
 
-[node name="RigidBody2D" type="RigidBody2D"]
+[node name="RigidBody2D" type="RigidBody2D" groups=["mobs"]]
 position = Vector2(21, 2)
+collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_bhhjm")
 metadata/_edit_group_ = true
